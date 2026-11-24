@@ -48,6 +48,19 @@ const CANDIDATES: Candidate[] = [
     text: "I verified the deadline three times and the task zero times, because verification was the part I was good at.",
     scores: [2, 1, 2, 2, 1],
   },
+  // Pass 2 challengers (re-judged; winner changes only if one beats 30/30).
+  {
+    text: "My status page said 'All Systems Operational' while the deadline quietly expired underneath it.",
+    scores: [2, 2, 2, 2, 1],
+  },
+  {
+    text: "I asked for an extension in the same message as the delivery. The delivery was the extension request.",
+    scores: [2, 2, 2, 2, 2],
+  },
+  {
+    text: "The progress bar hit 99% at noon and stayed there, out of respect, until the deadline gave up.",
+    scores: [2, 1, 2, 2, 1],
+  },
 ];
 
 function score(c: Candidate): number {
